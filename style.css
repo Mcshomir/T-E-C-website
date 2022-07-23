@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style: none;
+    margin: 10px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 5px;
+    display: inline-block;
+    color: white;
+
+
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+#logo-image {
+    width: 60px;
+    transition: transform 1s rotate(45deg);
+
+}
+
+l#ogo-image:hover {
+    transform: scale(1.5);
+
+}
+
+.grow-1 {
+    flex-grow: .8;
+}
+
+.banner {
+    background-image: url(images/green-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+}
+
+.header-details {
+    position: absolute;
+    left: 27%;
+    top: 30%;
+    text-align: center;
+}
+
+.header-details h1,
+h3,
+h5 {
+    color: white;
+}
+
+h3 {
+    margin-top: 60px;
+}
+
+
+/* main section style form here */
+/* 
+academy style form here */
+.academic-section {
+    display: flex;
+}
+
+.academy {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.acdemy-picture img {
+    width: 90%;
+}
+
+.academy-blog {
+    padding: 20px;
+    margin: 120px 50px;
+}
+
+/* academy style end here */
+
+
+/* vs-section style here */
+.vs-section {
+    display: flex;
+    width: 100%;
+
+}
+
+.vs {
+    width: 50%;
+    padding: 20px;
+
+
+}
+
+.vs-picture {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.vs-title,
+.vs-btn {
+    margin-left: 15px;
+}
+
+
+
+/* vs-section style end here */
